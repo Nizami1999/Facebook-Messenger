@@ -1,0 +1,26 @@
+.input-field {
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 20px 0;
+}
+button.btn-send {
+  margin-left: 20px;
+  margin-top: 15px;
+}
+input {
+  width: 400px !important;
+  @media screen and (max-width: 550px) {
+    width: auto !important;
+  }
+}
+
+svg {
+  cursor: pointer;
+  color: #1a77f2;
+  margin-top: 18px;
+  margin-left: 18px;
+}

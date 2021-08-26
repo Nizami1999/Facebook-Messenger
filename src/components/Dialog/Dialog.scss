@@ -1,0 +1,42 @@
+.dialog {
+  padding: 210px 0 90px 0;
+  width: 60%;
+  margin: 0 auto;
+
+  @media screen and (max-width: 425px) {
+    padding: 110px 0 90px 0;
+    width: 90%;
+  }
+
+  .message-item {
+    margin-bottom: 20px;
+
+    .message {
+      width: fit-content;
+      background-color: #e4e6ea;
+
+      h4 {
+        padding: 8px 16px;
+        font-weight: 300;
+        font-size: 20px;
+      }
+    }
+    .message-admin {
+      background-color: #1a77f2 !important;
+      color: white !important;
+      margin-left: auto !important;
+    }
+
+    h6.message-admin-lbl {
+      display: block;
+      text-align: right;
+    }
+
+    h6 {
+      font-weight: 200;
+      font-size: 14px;
+      padding-top: 3px;
+      display: inline-block;
+    }
+  }
+}
